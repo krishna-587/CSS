@@ -1,0 +1,15 @@
+/* Starts with */
+a[href^="http"]{
+    color: red;
+}
+/* Ends with */
+
+a[href$="in"]{
+    color: green;
+}
+
+/* Present Anywhere */
+
+a[href*="twitter"]{
+    color: palevioletred;
+}
