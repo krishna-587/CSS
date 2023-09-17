@@ -1,0 +1,55 @@
+/* Basic SELECTOR */
+
+/* THIS IS  A COMMENT */
+
+/* ----------------------------- */
+/* Elemnt selector */
+
+h1{
+    color: rgb(15, 137, 15);
+    border: 3px solid darkmagenta ;
+    background-color: lightgrey;
+}
+li{
+    color: chocolate;
+    font-style: italic;
+}
+a{
+    color: hotpink;
+}
+/*Id Selector*/
+#special{
+    color: purple;
+    text-decoration: underline;
+    font-size: 24px;
+}
+/* class selector */
+.one{
+    color: palevioletred;
+    font-weight: bold;
+}
+
+.two{
+    font-size: 24px;
+    color: orange;
+}
+
+.three{
+    border: 1px solid black;
+}
+/* attribute selector */
+input[type="text"]{
+    background-color: goldenrod;
+}
+
+a[href="http://google.com"]{
+    font-weight: bold;
+    color: lightseagreen;
+    font-size: 24px;
+}
+
+/* Universal selctor */
+
+*{
+    border: 1px solid gray;
+}
