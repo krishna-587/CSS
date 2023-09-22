@@ -1,0 +1,36 @@
+div{
+    height: 150px;
+    width: 150px;
+    border: 3px solid black;
+    display: inline-block;
+}
+/* in static offset don't work */
+#static #middle{
+    position: static;
+    top: 100px;
+    left: 150px;
+    right: 100px;
+    bottom: 100px;
+}
+
+#relative #rel{
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+#absolute{
+    position: relative;
+    border: 3px solid black;
+}
+
+#absolute #abso{
+    position: absolute;
+    top: 50px;
+    left: 0px;
+}
+
+#fixed #fix{
+    position: fixed;
+    top: 10px;
+    left: 0px;
+}
