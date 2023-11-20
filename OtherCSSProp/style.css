@@ -1,0 +1,44 @@
+p{
+    white-space: nowrap;
+    /* overflow: hidden; */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    /* width: 70vw; */
+    /* margin: 30px; */
+    /* text-overflow: ellipsis; */
+
+}
+ p:hover{
+    overflow: scroll;
+    text-overflow: clip;
+}
+
+#chat-box{
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 30px auto;
+    width: 50vw;
+    font-size: 24px;
+    height: 300px;
+    overflow-y: scroll;
+}
+li{
+    border: 1px solid #ccc;
+    padding: 16px;
+    margin: 10px;
+    white-space: nowrap;
+    overflow-x: scroll;
+    /* text-overflow: ellipsis; */
+}
+div{
+    border: 2px solid black;
+    /* width: 700px; */
+    background-color: palevioletred;
+    height: 150px;
+    /* max-width: 700px;
+    min-width: 320px; */ 
+    
+}
+div p{
+    justify-content: space-around;
+}

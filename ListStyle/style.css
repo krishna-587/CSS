@@ -1,0 +1,26 @@
+section{
+    border: 1px solid black;
+    width: 50vw;
+    margin: 40px auto;
+    font-size: 30px;
+    
+}
+/* List style type */
+
+section ul{
+    /* list-style-type: square; */
+    /* list-style-type: '\1F34D'; */
+    /* list-style-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbhaKVyH-UMeQOJzN-kPXTPz2gGkHtGr1BCA&usqp=CAU'); */
+    /* list-style-image: linear-gradient(to left bottom, red, blue); */
+    padding: 30px;
+    /* list-style-position: inside; */
+    /* list-style: none; */
+
+    /* shorthand property */
+    list-style: '\1F34D' linear-gradient(to left bottom, red, blue) outside;
+
+}
+
+section ul li{
+    border: 1px solid #ccc;
+}
