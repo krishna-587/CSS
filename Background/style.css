@@ -1,0 +1,27 @@
+.img{
+    border: 2px solid black;
+    height: 90vh;
+    width: 70vw;
+    background-image: url("https://images.unsplash.com/photo-1575753463828-d45f2e07fe4e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDMzfHhIeFlUTUhMZ09jfHxlbnwwfHx8fHw%3D");
+    /* by default repeat hota hai */
+    background-repeat: no-repeat;   
+    /* background-size: 40% 60%; */
+    /* background-size: contain; */
+    background-size: cover;
+    
+    /* background-position: center; */
+    /* background-position: right; */
+
+    /* from 0-1 range  */
+    /* opacity: 0.9; */
+
+
+}
+
+.img:hover{
+    /* for back and white */
+    filter: grayscale(95%);
+    cursor: pointer;
+    
+    /* cursor: col-resize; */
+}
