@@ -1,0 +1,19 @@
+div{
+    background-color: darkgoldenrod;
+    height: 100px;
+    width: 100px;
+    border: 2px solid brown;
+    /* transition: 3s; */
+    transition-duration: 3s;
+    /* transition-delay: 2s; */
+    /* transition-property: all; */
+    transition-property: border-radius;
+    
+}
+
+div:hover{
+    background-color: violet;
+    border-radius: 30px;
+    
+    
+}
