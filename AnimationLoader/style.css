@@ -1,0 +1,42 @@
+.box{
+    width: 250px;
+    height: 250px;
+    border-top: 10px solid rgb(202, 71, 64);
+    border-bottom: 10px solid rgb(215, 215, 12);
+    border-left: 10px solid rgb(73, 202, 64);
+    border-right: 10px solid rgb(87, 64, 202);
+    border-radius: 50%;
+    margin: 30px auto;
+}
+.box:hover{
+    animation: loader , backgroundChanger;
+    animation-duration: 2s , 0.8ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    /* animation-direction: alternate; */
+}
+@keyframes loader {
+    0%{
+        
+        transform: translateY(0) rotate(0deg);
+        
+    }
+    50%{
+        transform: translateY(425px) rotate(180deg);
+    }
+    100%{
+        transform: translateY(0) rotate(360deg);
+        
+    }
+}
+@keyframes backgroundChanger {
+    0%{
+        background-color: rgb(237, 237, 15);
+    }
+    50%{
+        background-color: rgb(8, 51, 168);
+    }
+    100%{
+        background-color: rgb(141, 5, 5);
+    }
+}
